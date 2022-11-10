@@ -17,7 +17,6 @@ function App() {
   };
 
   const {data,isLoading,isError,error,refetch} = useQuery(['getdata'],fetchData);
-
   const refetchData = ()=>{
     refetch();
     console.log("reloaded-Iamge-data");
