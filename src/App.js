@@ -22,7 +22,7 @@ function App() {
     refetch();
     console.log("reloaded-Iamge-data");
     console.log(data);
-    setButtonContent("Reloaded!!! reseted Image and print reset-data in console");
+    setButtonContent("Reloaded !!! reseted Image and print reset-data in console");
   }
 
   if (isLoading) {
